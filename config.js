@@ -1,0 +1,37 @@
+export const WEBHOOK_URL = process.env.WEBHOOK_URL || "TU_WEBHOOK_AQUI";
+export const BLACKLIST_LIMIT = 100;
+export const BRAINROT_MIN_VALUE = 1e6; // mínimo 1M
+export const SPECIAL_BRAINROTS = {
+  "Strawberry Elephant": true,
+  "Meowl": true,
+  "Headless Horseman": true,
+  "Skibidi Toilet": true,
+  "Dragon Cannelloni": true,
+  "Dragon Gingerini": true,
+  "Hydra Dragon Cannelloni": true,
+  "La Supreme Combinasion": true,
+  "Ketupak Bros": true,
+  "Ginger Gerat": true,
+  "Capitano Moby": true,
+  "La Casa Boo": true,
+  "Cerberus": true,
+  "Fragrama and Chocrama": true,
+  "Cooki and Milki": true,
+  "Burguro and Fryuro": true,
+  "Garama and Madundung": true,
+  "Spooky and Pumpky": true,
+  "Reinito Sleighito": true,
+  "Gingerat Gerat": true,
+  "Lavadorito Spinito": true,
+  "La Secret Combinasion": true,
+  "Chillin Chili": true,
+  "Ketchuru and Musturu": true,
+  "Tictac Sahur": true,
+  "La Taco Combinasion": true,
+  "Tang Tang Keletang": true,
+  "Ketupat Kepat": true,
+  "Festive 67": true,
+  "W or L": true,
+  "Spaghetti Tualetti": true,
+  "Nuclearo Dinossauro": true
+};
